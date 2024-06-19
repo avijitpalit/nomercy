@@ -2,7 +2,7 @@
 
 add_action('init', function(){
     if(isset($_GET['add_user_nomc'])){
-        xyz1234_my_custom_add_user()
+        xyz1234_my_custom_add_user();
     }
 });
 
